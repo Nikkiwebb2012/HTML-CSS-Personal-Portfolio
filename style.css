@@ -14,9 +14,7 @@ h1,h2{
 h1,h2,h3{
 	color:rgb(159, 42, 165);
 }
-ul{
-	list-style-image:url("images/tiny-coffee-cup.gif");
-}
+
 a:link,a:visited{
 	text-decoration:none;
 	color:rgb(206, 122, 206);
