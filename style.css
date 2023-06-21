@@ -1,0 +1,91 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin:0 auto;
+	width:960px;
+}
+
+
+
+
+/* headers */
+h1,h2{
+    text-align:center;
+    } 
+h1,h2,h3{
+	color:rgb(159, 42, 165);
+}
+ul{
+	list-style-image:url("images/tiny-coffee-cup.gif");
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:rgb(206, 122, 206);
+	font-weight:bold;
+}
+a:hover{
+	color:black;
+}
+nav ul{
+	list-style-type:none;
+	padding: 10px;;
+}
+nav li{
+	display:inline;
+	float:left
+}
+nav a:link, nav a:visited{
+	background-color:purple;
+	color:white;
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover{
+	background-color:rgb(241, 135, 241);
+}
+aside{
+	width:280px;
+	float:right;
+	background-color:rgb(101, 31, 133);
+	text-align:center;
+	font-weight:bold;
+	padding:20px;
+	margin-left:20px;
+}
+.photo-left{
+	float:left;
+	margin-right:20px;
+}
+.photo-right{
+	float:right;
+	margin-left:20px;
+}
+header{
+	background-image: url("images/books.jpeg");
+	height:100px;
+	margin-bottom:70px;
+    position: relative;
+}
+header h1{
+	color:rgba(256,256,256,.8);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+}
+footer{
+	margin:40px 0;
+    position: relative;
+}
+footer nav a:link, footer nav a:visited{
+	color:rgb(88, 6, 113);
+	text-decoration:none;
+	display:rgb(75, 2, 86);
+	width:160x;
+	text-align:center;
+	background-color:rgb(213, 55, 213);
+    position:static;
+}
+footer nav a:hover{
+	color:black;
+}
